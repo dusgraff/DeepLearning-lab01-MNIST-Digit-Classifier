@@ -1,4 +1,4 @@
-# al-lab-HelloWorld
+# DeepLearning-lab-MNIST
 "Hello World" of Deep Learning
 
 MNIST dataset - Image Classification
