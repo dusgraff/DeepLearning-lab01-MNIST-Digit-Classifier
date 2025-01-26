@@ -9,8 +9,7 @@ print_header("Importing Modules")
 import numpy as np
 import os
 import shutil
-
-# for dataset ONLY
+import tensorflow as tf
 from tensorflow.keras.datasets import mnist
 
 # -------------------------------------------------------------------------------

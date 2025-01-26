@@ -14,3 +14,9 @@ python download_data.py
 ```
 python pytorch.py
 ```
+
+## Train and evaluate the model - TensorFlow
+
+```
+python tensorflow.py
+```
