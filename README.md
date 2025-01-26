@@ -6,17 +6,17 @@ MNIST dataset - Image Classification
 ## Download data
 
 ```
-python download_data.py
+python mnist_!download_dataset.py
 ```
 
 ## Train, evaluate, and save model - PyTorch
 
 ```
-python pytorch.py
+python mnist_pytorch.py
 ```
 
 ## Train, evaluate, and save model - TensorFlow
 
 ```
-python tensorflow.py
+python mnist_tensorflow.py
 ```
