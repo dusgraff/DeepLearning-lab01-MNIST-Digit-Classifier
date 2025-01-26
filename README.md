@@ -9,13 +9,13 @@ MNIST dataset - Image Classification
 python download_data.py
 ```
 
-## Train and evaluate the model - PyTorch
+## Train, evaluate, and save model - PyTorch
 
 ```
 python pytorch.py
 ```
 
-## Train and evaluate the model - TensorFlow
+## Train, evaluate, and save model - TensorFlow
 
 ```
 python tensorflow.py
