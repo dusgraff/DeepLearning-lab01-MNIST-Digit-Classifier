@@ -43,14 +43,14 @@ Rules:
         function_example
     ```
 - Always use Windows file paths.
-- For blocks of print code, use the following format with aligned values using fixed-width spacing:
+- For blocks of print code, use the following format with aligned values using fixed-width spacing, WHITE for value names, GREEN for values:
     ```python
     # Print confirmation message and data shapes
     print("MNIST dataset saved to .\\datasets\\")
-    print(f"Training data shape:   {train_data.shape:>15}")
-    print(f"Training labels shape: {train_labels.shape:>15}") 
-    print(f"Test data shape:       {test_data.shape:>15}")
-    print(f"Test labels shape:     {test_labels.shape:>15}")
+    print(f"Training data shape:   {Fore.GREEN}{train_data.shape:>15}{Fore.RESET}")
+    print(f"Training labels shape: {Fore.GREEN}{train_labels.shape:>15}{Fore.RESET}") 
+    print(f"Test data shape:       {Fore.GREEN}{test_data.shape:>15}{Fore.RESET}")
+    print(f"Test labels shape:     {Fore.GREEN}{test_labels.shape:>15}{Fore.RESET}")
     ```
 - Always use 112358 as the random seed for reproducibility.
 - For concept lists
